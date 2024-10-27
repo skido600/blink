@@ -10,7 +10,7 @@
     <main>
       <!-- nav bar logic -->
       <nav
-        class="bg-white drop-shadow-2xl m-2 lg:w-[80%] md:m-auto rounded-full p-4"
+        class="bg-white drop-shadow-2xl md:mt-3 m-2 lg:w-[80%] md:m-auto rounded-full p-4"
       >
         <!-- desktop -->
         <div class="md:flex items-center justify-around">
@@ -49,7 +49,7 @@
               <li>Blogs</li>
               <li class="md:hidden block">
                 <button
-                  class="text-[15px] font-bold w-full border-2 py-1 rounded-full border-gray-300"
+                  class="text-[15px] font-bold w-full border-[1px] py-1 rounded-full border-gray-300"
                 >
                   Log in
                 </button>
@@ -68,11 +68,11 @@
           <!-- logizn -->
           <div class="login hidden md:flex gap-4 items-center">
             <div>
-              <button class="text-[15px] font-bold">Log in</button>
+              <button class="text-[11px] font-bold">Log in</button>
             </div>
             <div>
               <button
-                class="bg-blue-600 py-2 px-4 rounded-full text-[15px] text-white"
+                class="bg-blue-600 py-2 px-4 rounded-full text-[11px] text-white"
               >
                 sigup free
               </button>
@@ -93,9 +93,9 @@
         </p>
         <!-- email -->
         <div
-          class="flex items-center justify-between p-2 bg-white gap- drop-shadow-xl md:w-[70vh] m-4 md:m-auto rounded-full"
+          class="flex items-center justify-between py-[10px] px-[9px] bg-white gap- drop-shadow-xl md:w-[53%] lg:w-[40%] m-4 md:m-auto rounded-full"
         >
-          <div class="flex">
+          <div class="flex w-[60%]">
             <img
               class="w-6"
               src="./assets/images/mail_24dp_5F6368_FILL0_wght400_GRAD0_opsz24 (1).svg"
@@ -104,16 +104,41 @@
             <input
               type="email"
               placeholder="Enter email address"
-              class="focus:outline-none placeholder:text-sm pl-1"
+              class="focus:outline-none w-[100%] placeholder:text-sm pl-1 focus:text-black"
             />
           </div>
           <button
-            class="bg-blue-600 px-[14px] py-[12px] rounded-full text-[9px] text-white"
+            class="bg-blue-600 md:px-[10px] p-[10px] rounded-full text-[9px] text-white"
           >
             Get started
           </button>
         </div>
       </section>
+      <!-- images grid section -->
+      <article class="flex justify-center items-center mt-8 overflow-hidden">
+        <!-- <div class="image_div"> -->
+        <img
+          class="md:w-[16rem] w-[9rem] h-[30vh] object-cover"
+          src="./assets/images/one-zone-studio-fA_EGdXevao-unsplash.jpg"
+          alt="image_1"
+        />
+        <!-- </div> -->
+        <img
+          class="md:w-[10rem] w-[10rem] h-[20vh] object-cover"
+          src="./assets/images/the-chaffins-reWJ2ugmpw8-unsplash.jpg"
+          alt="iameg_1"
+        />
+        <img
+          class="md:w-[10rem] w-[8rem] h-[20vh] object-cover"
+          src="./assets/images/port.jpg"
+          alt="iameg_1"
+        />
+        <img
+          class="md:w-[16rem] w-[8rem] h-[30vh] object-cover"
+          src="./assets/images/gustavo-leighton-RWPbN8rWKxs-unsplash.jpg"
+          alt="iameg_1"
+        />
+      </article>
     </main>
     <script src="./script/Controllere.js" type="module"></script>
   </body>
